@@ -1,0 +1,12 @@
+Основные блоки(страницы) сайта.txt
+# include folders to project:
+# img/
+# svg/
+email-img/
+node_modules/
+php/connConfig.php
+php/connConfig/connConfig.php
+php/connConfig/connConfig-S.php
+#reference images
+img/_notUsed-img
+img/_notUsed-img2
