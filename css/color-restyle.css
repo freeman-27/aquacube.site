@@ -40,7 +40,7 @@
     background-color: var(--bg-main--Header--DarkColor-restyle);
 }
 .bg--main--link--active{
-    background-color: rgba(201, 159, 173, 0.25);
+    background-color: rgba(159, 193, 201, 0.25);
     border: 2px solid var(--bg-nav--link--active-restyle);
     border-radius: 0.5em;
     color: var(--text-nav--link--active-restyle) !important;

@@ -10,22 +10,22 @@ body{
 	/* background: linear-gradient(to bottom right, #c99fb4, #462738); */
     /* background-image: url("/img/ocean.jpg"); */
 
-    background-image: url("/img/ocean.jpg"), linear-gradient(to bottom right, #c99fb4, #462738);
-    /* background-repeat: repeat, no-repeat; */
-    background-position: 0px 0px, 0px 0px !important;
+    background-image: url("img/Bacgrounds/ocean.jpg"), linear-gradient(to bottom right, #7bdbdf, #2d3764);
+    background-repeat: repeat, no-repeat;
+    background-position: 500px 2000px, 0px 0px !important;
     background-size: 50% auto, 100% 1000%;
     background-attachment: fixed;
 
 }
 /*BACKGROUND*/
-#customBackgroundBlock{
+/* #customBackgroundBlock{ */
     /* background: none; */
     /* background-image: url("/img/ocean.jpg"), linear-gradient(to bottom right, #c99fb4, #462738); */
     /* background-repeat: repeat, no-repeat; */
     /* background-position: 500px 2000px, 0px 0px !important; */
     /* background-size: 50% auto, 100% 1000%; */
     /* background-attachment: fixed; */
-}
+/* } */
 #videoBackground{
     display: block;
     /* display: initial; */
@@ -139,7 +139,7 @@ footer{
     body{
 	    /* background: none; */
 	    /*background-image: linear-gradient(to bottom right, #c99fb3, #46272e, #c99fb3, #46272e  /* yellowgreen/* #d3dbe0*/ /* ); */ 
-        background-size: auto auto;
+        /* background-size: auto auto; */
     }
 
     #videoBackground{
