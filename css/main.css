@@ -10,7 +10,7 @@ body{
 	/* background: linear-gradient(to bottom right, #c99fb4, #462738); */
     /* background-image: url("/img/ocean.jpg"); */
 
-    background-image: url("img/Bacgrounds/ocean.jpg"), linear-gradient(to bottom right, #7bdbdf, #2d3764);
+    background-image: url("img/Backgrounds/imgBackgrounds"), linear-gradient(to bottom right, #7bdbdf, #2d3764);
     background-repeat: repeat, no-repeat;
     background-position: 500px 2000px, 0px 0px !important;
     background-size: 50% auto, 100% 1000%;
@@ -249,15 +249,15 @@ footer{
 @media screen and (max-width: 749px) {
     body{
         /* background: none;  */
-        /* background-image: url("/img/ocean.jpg"), linear-gradient(to bottom right, #c99fb4, #462738);
-        background-repeat: repeat, no-repeat;
+        background-image: url("img/Backgrounds/imgBackgrounds"), linear-gradient(to bottom right, #7bdbdf, #2d3764);
+        /* background-repeat: repeat, no-repeat;
         background-position: 0px 0px, 0px 0px !important;
         background-size: cover, 100% 1000%;
-        background-attachment: fixed; */
+        background-attachment: fixed;  */
     }
     #customBackgroundBlock{
         /* background: none; */
-        background-image: url("/img/ocean.jpg"), linear-gradient(to bottom right, #c99fb4, #462738); 
+        background-image: url("img/Backgrounds/imgBackgrounds"), linear-gradient(to bottom right, #7bdbdf, #2d3764);
         background-repeat: repeat, no-repeat;
         background-position: 0px 0px, 0px 0px !important;
         background-size: cover, 100% 1000%;
