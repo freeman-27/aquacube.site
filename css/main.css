@@ -78,15 +78,13 @@ h2{
     margin-top: 60rem;
 } */
 /*SERVICES BLOCK*/
-#Modal-ShowDescription-01 .modal-content, #Modal-ShowDescription-02 .modal-content, #Modal-ShowDescription-03 .modal-content,
+#Modal-ShowDescription-AboutSite .modal-content, #Modal-ShowDescription-01 .modal-content, #Modal-ShowDescription-02 .modal-content, #Modal-ShowDescription-03 .modal-content,
 #Modal-ShowDescription-04 .modal-content, #Modal-ShowDescription-05 .modal-content, #Modal-ShowDescription-06 .modal-content{
-    background: var(--bg-main--Header--DarkColor-restyle);
-}
-#Modal-ShowDescription-01 .modal-content, #Modal-ShowDescription-02 .modal-content,#Modal-ShowDescription-03 .modal-content,
-#Modal-ShowDescription-04 .modal-content,#Modal-ShowDescription-05 .modal-content,#Modal-ShowDescription-06 .modal-content {
     box-shadow: 0 0px 24px 32px rgba(0, 255, 255, 0.76), 0 0px 60px 65px rgba(255, 255, 255, 0.4) !important;
     border-width: 10px !important;
+    background: var(--bg-main--Header--DarkColor-restyle);
 }
+
 #servicesContainer a, #oceanTypesContainer a, #riverTypesContainer a, #aquaTypesContainer a{
     /* color: var(--bg-main--Header--DarkColor-restyle); */
     color: #ffd8ff;

@@ -1,10 +1,14 @@
 var timeoutToRunFunction;
+var timeoutToStopFunction;
  
 $(document).ready(function startAnimation(){
-		timeoutToRunFunction = setTimeout(flowersAnimation, 5000);		
+		timeoutToRunFunction = setTimeout(bublesAnimation, 5000);
+		timeoutToStopFunction = clearTimeout(bublesAnimation, 10000);		
 		});
 
-		function flowersAnimation(){
+		function bublesAnimation(){
+			
+
 			$("body").jSnow({
 			vSize: 2000, //Размер области
 			flakes: 300, //Количество элементов.
